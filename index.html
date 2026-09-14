@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indian.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <h1 class="heading">Hunting  India </h1>
+        <nav class="top-nav" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#games-toys">Games &amp; Toys</a>
+            <a href="#states">States</a>
+            <a href="#play-quiz">Play Quiz</a>
+            <a href="#progress">View Progress</a>
+            <a href="#about">About</a>
+            <form class="search-box" role="search">
+                <label for="site-search" class="sr-only">Search</label>
+                <input id="site-search" type="search" placeholder="Search" name="search">
+                <button type="submit" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                </button>            </form>
+        </nav>
+        <a class="login-link" href="#login">
+            <i class="fa-solid fa-user" aria-hidden="true"></i>
+            <span>Login / Sign In</span>
+        </a>
+    </div>
+    <div class="image-container">
+        <img src="indian.jpg" alt="Indian temple" class="image hero-image">
+        <div class="image-text">
+            <h3>The India Hunt</h3>
+            <p class="image-subtext">Hunting India's hidden traditions and heritages.</p>
+            <p class="image-tags">And know different types of foods, arts, toys,</p>
+            <p class="image-tags">games, dances, and many more...</p>
+            <button class="hunt-btn" type="button">Start Hunting</button>
+        </div>
+    </div>
+
+    <div class="category-heading">
+        <strong>Hunt by Categories</strong>
+    </div>
+
+    <section class="gallery-section">
+        <div class="image-grid">
+            <article class="gallery-card category-card" data-category="food" tabindex="0" role="button" aria-label="Open Food">
+                <img src="food.webp" alt="Traditional Indian food">
+                <div class="card-content">
+                    <div class="card-title-row">
+                        <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+                        <h4>Food</h4>
+                    </div>
+                    <p>From buttery parathas to spicy biryani, India serves flavours in every bite.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card category-card" data-category="games" tabindex="0" role="button" aria-label="Open Games">
+                <img src="fstival img.webp" alt="Indian festival celebration">
+                <div class="card-content">
+                    <div class="card-title-row">
+                        <i class="fa-solid fa-campground" aria-hidden="true"></i>
+                        <h4>Festivals</h4>
+                    </div>
+                    <p>Celebrate the colours, music, and community spirit of Diwali, Holi, and more.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <img src="toys img.jpg" alt="Indian art and crafts">
+                <div class="card-content">
+                    <div class="card-title-row">
+                        <i class="fa-solid fa-palette" aria-hidden="true"></i>
+                        <h4>Arts</h4>
+                    </div>
+                    <p>Discover hand-painted murals, vibrant textiles, and timeless craft traditions.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <img src="games img.jpg" alt="Traditional Indian games and toys">
+                <div class="card-content">
+                    <div class="card-title-row">
+                        <i class="fa-solid fa-gamepad" aria-hidden="true"></i>
+                        <h4>Games</h4>
+                    </div>
+                    <p>Enjoy playful folk games and traditional entertainment from every region.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <img src="dance img.jpg" alt="Traditional Indian dance performance">
+                <div class="card-content">
+                    <div class="card-title-row">
+                        <i class="fa-solid fa-music" aria-hidden="true"></i>
+                        <h4>Dance</h4>
+                    </div>
+                    <p>Feel the rhythm of Bharatanatyam, Kathak, and folk dances from every state.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <img src="light img.jpg" alt="Quiz and discovery">
+                <div class="card-content">
+                    <div class="card-title-row">
+                        <i class="fa-solid fa-brain" aria-hidden="true"></i>
+                        <h4>Quiz</h4>
+                    </div>
+                    <p>Test your knowledge and discover more about India’s incredible traditions.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- <section class="category-page" id="category-page" aria-hidden="true" aria-labelledby="category-page-title">
+        <button class="category-page-close" id="category-page-close" type="button" aria-label="Close category page">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <div class="category-page-content">
+            <i class="category-page-icon" id="category-page-icon" aria-hidden="true"></i>
+            <h2 id="category-page-title"></h2>
+            <p id="category-page-description"></p>
+        </div>
+    </section> -->
+
+    <div class="state-heading">
+        <strong>Recommended States</strong>
+        <a href="#states" class="view-all-link">View all <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+
+    <section class="state-section">
+        <div class="state-grid">
+            <article class="state-card">
+                <img src="kerala img.jpg" alt="Kerala">
+                <div class="state-content">
+                    <h4>Kerala</h4>
+                    <p>Backwaters, beaches, and vibrant culture.</p>
+                </div>
+            </article>
+
+            <article class="state-card">
+                <img src="tamilnadu img.webp" alt="TamilNadu">
+                <div class="state-content">
+                    <h4>Tamil Nadu</h4>
+                    <p>Temple towns, classical dance, and rich Dravidian heritage.</p>
+                </div>
+            </article>
+
+            <article class="state-card">
+                <img src="telangana img.webp" alt="Telangana">
+                <div class="state-content">
+                    <h4>Telangana</h4>
+                    <p>Historic forts, Hyderabadi flavours, and vibrant culture.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-brand">
+            <h3>Explore India</h3>
+            <p>Discover the colours, culture, flavours, and traditions of a vibrant nation.</p>
+            <div class="footer-links footer-links-row">
+                <a href="#home">Home</a>
+                <a href="#states">States</a>
+                <a href="#play-quiz">Quiz</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p><i class="fa-regular fa-copyright" aria-hidden="true"></i> 2026 Explore India</p>
+            <p>Made with <i class="fa-solid fa-heart" aria-hidden="true"></i> for Indian heritage and culture.</p>
+        </div>
+    </footer>
+    <!-- <script src="indian.js"></script> -->
+</body>
+</html>s
